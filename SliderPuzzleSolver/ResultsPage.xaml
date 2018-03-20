@@ -1,0 +1,32 @@
+﻿<!-- Gabriel Mayo w860898
+ CSC 412 - Intro to AI
+ Ins. Bryant Walley
+ Slider Puzzle Solver
+ 10-31-2017, 11-7-2017, 11-14-2017 -->
+    <Page x:Class="SliderPuzzleSolver.ResultsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SliderPuzzleSolver"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Slider Puzzle Solver - Results">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Name="ResultsLabel" Grid.Row="0" HorizontalAlignment="Center" FontSize="30">Results</Label>
+        <Label Name="SolutionLabel" Grid.Row="1" Style="{StaticResource resultsLabelStyle}"></Label>
+        <Label Name="NodesLabel" Grid.Row="2" Style="{StaticResource resultsLabelStyle}"></Label>
+        <Label Name="FileOutputLabel" Grid.Row="3" Style="{StaticResource resultsLabelStyle}"></Label>
+
+        <Button Name="ReturnHomeButton" Grid.Row="4" HorizontalAlignment="Right"  Click="Return_Home" Style="{StaticResource buttonStyle}">Return</Button>
+    </Grid>
+</Page>

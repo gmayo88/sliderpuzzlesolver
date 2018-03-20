@@ -1,0 +1,16 @@
+﻿<!-- Gabriel Mayo w860898
+ CSC 412 - Intro to AI
+ Ins. Bryant Walley
+ Slider Puzzle Solver
+ 10-31-2017, 11-7-2017, 11-14-2017 -->
+    <Window x:Class="SliderPuzzleSolver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SliderPuzzleSolver"
+        mc:Ignorable="d"
+        Title="Slider Puzzle Solver" Height="400" Width="525"
+        Loaded="Window_Loaded">
+    <Frame Name="Frame1" Content=""/>
+</Window>
